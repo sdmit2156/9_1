@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:3:5-66
+11-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.18.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/81da4f73c9e357891b6c12d5c9a58556/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.weatherapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.18.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/81da4f73c9e357891b6c12d5c9a58556/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.18.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/81da4f73c9e357891b6c12d5c9a58556/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.weatherapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.18.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/81da4f73c9e357891b6c12d5c9a58556/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.18.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/81da4f73c9e357891b6c12d5c9a58556/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:4:5-20:19
+20        android:allowBackup="true"
+20-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:5:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.18.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/81da4f73c9e357891b6c12d5c9a58556/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:6:9-43
+25        android:label="@string/app_name"
+25-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:7:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:8:9-54
+27        android:supportsRtl="true"
+27-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+28        android:testOnly="true"
+29        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+29-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:10:9-72
+30        <activity
+30-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:11:9-19:20
+31            android:name="com.example.weatherapp.MainActivity"
+31-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:13:13-41
+32            android:exported="true" >
+32-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:12:13-36
+33            <intent-filter>
+33-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:14:13-18:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:15:17-69
+34-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:15:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:17:17-77
+36-->/Users/victoriaivanova/6_sem/pmvs/lab9/src/weather-app/composeApp/src/androidMain/AndroidManifest.xml:17:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[org.jetbrains.compose.components:components-resources-android:1.10.3] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e296a929f1356eeee64c057cb9a4137e/transformed/library-release/AndroidManifest.xml:8:9-13:20
+41            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+41-->[org.jetbrains.compose.components:components-resources-android:1.10.3] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e296a929f1356eeee64c057cb9a4137e/transformed/library-release/AndroidManifest.xml:9:13-82
+42            android:authorities="com.example.weatherapp.resources.AndroidContextProvider"
+42-->[org.jetbrains.compose.components:components-resources-android:1.10.3] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e296a929f1356eeee64c057cb9a4137e/transformed/library-release/AndroidManifest.xml:10:13-84
+43            android:enabled="true"
+43-->[org.jetbrains.compose.components:components-resources-android:1.10.3] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e296a929f1356eeee64c057cb9a4137e/transformed/library-release/AndroidManifest.xml:11:13-35
+44            android:exported="false" >
+44-->[org.jetbrains.compose.components:components-resources-android:1.10.3] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e296a929f1356eeee64c057cb9a4137e/transformed/library-release/AndroidManifest.xml:12:13-37
+45        </provider>
+46
+47        <activity
+47-->[androidx.compose.ui:ui-tooling-android:1.10.5] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/b62f069d53af875a85d899cc7813cdb7/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+48            android:name="androidx.compose.ui.tooling.PreviewActivity"
+48-->[androidx.compose.ui:ui-tooling-android:1.10.5] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/b62f069d53af875a85d899cc7813cdb7/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+49            android:exported="true" />
+49-->[androidx.compose.ui:ui-tooling-android:1.10.5] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/b62f069d53af875a85d899cc7813cdb7/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+50
+51        <uses-library
+51-->[androidx.window:window:1.5.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e5fe9d9dd4a5308f4d05fdc352f526aa/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.5.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e5fe9d9dd4a5308f4d05fdc352f526aa/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.5.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e5fe9d9dd4a5308f4d05fdc352f526aa/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+54        <uses-library
+54-->[androidx.window:window:1.5.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e5fe9d9dd4a5308f4d05fdc352f526aa/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.5.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e5fe9d9dd4a5308f4d05fdc352f526aa/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.5.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/e5fe9d9dd4a5308f4d05fdc352f526aa/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+60            android:authorities="com.example.weatherapp.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/433cf5b09e1582008c26aece1962ebbf/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/158dd2b259aeb078ce724e70a6ea0186/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/158dd2b259aeb078ce724e70a6ea0186/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.9.4] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/158dd2b259aeb078ce724e70a6ea0186/transformed/lifecycle-process-2.9.4/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/75bfc682f213962cab69f8a4edbbcbf6/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+69                android:name="com.russhwolf.settings.SettingsInitializer"
+69-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/75bfc682f213962cab69f8a4edbbcbf6/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+70                android:value="androidx.startup" />
+70-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/75bfc682f213962cab69f8a4edbbcbf6/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+73                android:value="androidx.startup" />
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+74        </provider>
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/victoriaivanova/.gradle/caches/8.14.3/transforms/58d8ff39c8d262a0e020561187362bb1/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>
